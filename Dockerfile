@@ -1,3 +1,3 @@
-FROM alpine
+FROM python
 
-CMD ["echo", "Hello World!"]
+CMD ["python", "-v"]
