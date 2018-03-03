@@ -3,7 +3,7 @@ FROM ubuntu
 
 # Install Python
 RUN apt-get update &&\
-    apt-get install -y python 
+    apt-get install -y python3 
 
 COPY helloworld.py /helloworld.py
 
