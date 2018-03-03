@@ -1,3 +1,5 @@
 FROM python
 
-CMD ["python", "-v"]
+COPY helloworld.py /helloworld.py
+
+CMD ["python", "/helloworld.py"]
